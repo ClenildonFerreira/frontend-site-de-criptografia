@@ -334,9 +334,9 @@ $(".btn-de-novo").on("click", function(){
 
 
 /////LINK DIRETO DECODIFICACAO
-  if(location.href == "https://trabalhodematematica.netlify.com/#pg-decod"){
-    $("#pg-cod").hide();
-    $("#pg-decod").hide();
+  if(location.href == "https://trabalhodematematica.netlify.com"){
+    $("#pg-cod").show();
+    $("#pg-decod").show();
   }
 
 new ClipboardJS('#copiar-mensagem');
