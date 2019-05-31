@@ -325,7 +325,7 @@ $(".chave-nove").hide();
 /////RECARREGAR PAGINA
 
 $(".btn-de-novo").on("click", function(){
-  if(location.href == "https://trabalhodematematica.netlify.com/"){
+  if(location.href == "https://trabalhodematematica.netlify.com/#pg-decod"){
     window.location.assign("https://trabalhodematematica.netlify.com/");
   } else {
     window.location.reload(false);
@@ -334,7 +334,7 @@ $(".btn-de-novo").on("click", function(){
 
 
 /////LINK DIRETO DECODIFICACAO
-  if(location.href == "https://trabalhodematematica.netlify.com"){
+  if(location.href == "https://trabalhodematematica.netlify.com/#pg-decod"){
     $("#pg-cod").show();
     $("#pg-decod").show();
   }
