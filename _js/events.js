@@ -334,7 +334,7 @@ $(".btn-de-novo").on("click", function(){
 
 
 /////LINK DIRETO DECODIFICACAO
-  if(location.href == "https://trabalhodematematica.netlify.com//#pg-decod"){
+  if(location.href == "https://trabalhodematematica.netlify.com/frontend-site-de-criptografia/#pg-decod"){
     $("#pg-cod").hide();
     $("#pg-decod").show();
   }
