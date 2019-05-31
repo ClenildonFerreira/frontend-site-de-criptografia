@@ -20,11 +20,11 @@ main .container { padding: 60px 15px }
 ---------- NAVBAR ----------
 --------------------------*/
 nav {
-  background-color: #005662;
+  background-color: #8b8b8b;
   position: fixed;
   z-index: 9999;
   padding: 0 10px;
-  height: 60px;
+  height: 70px;
   top:0; left:0; right:0; }
 nav, nav img {
   height: 60px;
@@ -44,7 +44,7 @@ footer .container > div {
   display: flex;
   align-items: center; }
 footer h5 { font-size: 14px }
-footer img { margin-right: 15px }
+footer img { margin-right: 16px }
 footer #teacher h5:first-line { font-size: 75% }
 footer #teacher h5 span { font-size: 150% }
 footer #teacher .teacher-avatar {
