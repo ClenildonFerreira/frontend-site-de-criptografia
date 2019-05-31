@@ -325,8 +325,8 @@ $(".chave-nove").hide();
 /////RECARREGAR PAGINA
 
 $(".btn-de-novo").on("click", function(){
-  if(location.href == "https://apps.univesp.br/matrizes-e-criptografia/#pg-decod"){
-    window.location.assign("https://apps.univesp.br/matrizes-e-criptografia/");
+  if(location.href == "https://trabalhodematematica.netlify.com/#pg-decod"){
+    window.location.assign("https://trabalhodematematica.netlify.com/");
   } else {
     window.location.reload(false);
   }
@@ -334,7 +334,7 @@ $(".btn-de-novo").on("click", function(){
 
 
 /////LINK DIRETO DECODIFICACAO
-  if(location.href == "index.html#pg-decod"){
+  if(location.href == "https://trabalhodematematica.netlify.com//#pg-decod"){
     $("#pg-cod").hide();
     $("#pg-decod").show();
   }

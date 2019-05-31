@@ -82,7 +82,7 @@ if($(window).width() > 676){
   // Example
   // ——————————————————————————————————————————————————
 
-  var phrases = ['Matrizes e Criptografia'];
+  var phrases = ['Criptografia com Matrizes'];
 
   var el = document.querySelector('.scramtext');
   var fx = new TextScramble(el);
