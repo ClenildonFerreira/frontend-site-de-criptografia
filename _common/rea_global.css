@@ -1,0 +1,62 @@
+/* -------------------------
+-------- ESTRUTURAL --------
+--------------------------*/
+body {
+  margin-top: 60px; /* mesmo valor da altura nav */
+  font-family: 'Lato', sans-serif; }
+nav .container, footer .container {
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #f2f2f2;
+  padding: 5px 0;
+  position: relative; }
+nav .container > div, footer .container > div { width: 100% }
+main .container { padding: 60px 15px }
+
+/* -------------------------
+---------- NAVBAR ----------
+--------------------------*/
+nav {
+  background-color: #005662;
+  position: fixed;
+  z-index: 9999;
+  padding: 0 10px;
+  height: 60px;
+  top:0; left:0; right:0; }
+nav, nav img {
+  height: 60px;
+  width: auto }
+nav #sharing {
+  font-size: 75%;
+  text-align: right; }
+nav #sharing a { color: white; border: 0; padding: 0 }
+
+/* -------------------------
+---------- FOOTER ----------
+--------------------------*/
+footer {
+  background-color: #303032;
+  padding: 5px 15px; }
+footer .container > div {
+  display: flex;
+  align-items: center; }
+footer h5 { font-size: 14px }
+footer img { margin-right: 15px }
+footer #teacher h5:first-line { font-size: 75% }
+footer #teacher h5 span { font-size: 150% }
+footer #teacher .teacher-avatar {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+footer #institucional { width: 590px }
+
+/* -------------------------
+--------- QUERIES ----------
+--------------------------*/
+@media (max-width: 768px){
+  footer .container { flex-flow: row wrap }
+  nav { height: auto }
+}
